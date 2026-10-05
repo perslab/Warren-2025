@@ -1,16 +1,35 @@
-# Warren-2025
-Glucagon-like peptide 1 (GLP-1) receptor agonists (GLP1RAs) effectively reduce feeding to treat obesity, although nausea
-and other aversive side effects of these drugs can limit their use. Brainstem circuits that promote satiation and mediate
-the physiological control of body weight can be distinguished from those that cause aversion. It remains unclear, however,
-whether brainstem Glp1r neurons contribute to the normal regulation of energy balance and whether GLP1RAs control
-appetite via circuits distinct from those that mediate aversive responses. Here, we silenced Glp1r neurons in the nucleus of
-the solitary tract (NTS) or area postrema (AP) (NTSGlp1r or APGlp1r neurons, respectively) or restored their GLP1R signaling on
-an otherwise GLP1R-deficient background to determine physiological and pharmacological roles for each neuron population.
-Although NTSGlp1r neurons contributed to the normal restraint of food intake and body weight, they failed to mediate GLP1RA-
-dependent weight loss. In contrast, while we detected no role for APGlp1r neurons in physiological feeding, they mediated both
-the weight-lowering and aversive effects of GLP1RAs. Therefore, while nonaversive NTSGlp1r neurons controlled physiologic
-satiation they did not contribute to weight loss during GLP1RA treatment. Rather, APGlp1r neurons mediated both the weight-
-lowering and aversive effects of GLP1RAs, preventing the separation of their nauseating and weight-loss effects at a circuit
-level. 
+# Yacawych-2026
 
-Code for computational analyses in this paper are attached to this repository
+## A single dorsal vagal complex circuit mediates the aversive and anorectic responses to GLP1R agonists
+
+Warren T. Yacawych<sup>1,2</sup>, Yi Wang<sup>1,3</sup>, Guoxiang Zhou<sup>4</sup>, Shad Hassan<sup>5</sup>, Cagri Bodur<sup>1</sup>, Elisabeth Walters<sup>1</sup>, John G. Santinga<sup>1</sup>, Frederike Sass<sup>1,5,6</sup>, Martin deVaux<sup>1</sup>, Stace Kernodle<sup>7</sup>, Iris Wu<sup>1,2</sup>, Jenny M. Brown<sup>5</sup>, Dylan Belmont-Rausch<sup>5</sup>, Alan C. Rupp<sup>1</sup>, Abigail J. Tomlinson<sup>1</sup>, Zitian Lin<sup>4</sup>, Emma VanTongeren<sup>1</sup>, Anna Secher<sup>8</sup>, Kirsten Raun<sup>9</sup>, Tune H. Pers<sup>5</sup>, Randy J. Seeley<sup>7</sup>, Martin G. Myers Jr<sup>1,2</sup>, and Weiwei Qiu<sup>4,9,10,11,12</sup>
+
+<sup>1</sup> Department of Internal Medicine, University of Michigan, Ann Arbor, Michigan, USA<br>
+<sup>2</sup> Department of Molecular and Integrative Physiology, University of Michigan, Ann Arbor, Michigan, USA<br>
+<sup>3</sup> Department of Metabolism and Endocrinology, National Clinical Research Center for Metabolic Diseases, The Second Xiangya Hospital, Central South University, Changsha, China<br>
+<sup>4</sup> Zhejiang University-University of Edinburgh Institute, International Campus, Zhejiang University, Haining, China<br>
+<sup>5</sup> Novo Nordisk Foundation Center for Basic Metabolic Research, University of Copenhagen, Copenhagen, Denmark<br>
+<sup>6</sup> Center for Adipocyte Signaling (ADIPOSIGN), University of Southern Denmark, Odense, Denmark<br>
+<sup>7</sup> Department of Surgery, University of Michigan, Ann Arbor, Michigan, USA<br>
+<sup>8</sup> Global Drug Discovery, Novo Nordisk A/S, Maløv, Denmark<br>
+<sup>9</sup> Research and Early Development, Novo Nordisk A/S, Bagsværd, Denmark<br>
+<sup>10</sup> Department of Endocrinology, The Second Affiliated Hospital, School of Medicine, Zhejiang University, Hangzhou, China<br>
+<sup>11</sup> International Joint Center for Biomedical Sciences (Haining), Zhejiang University, Haining, Zhejiang, China<br>
+<sup>12</sup> ZJU-YST Joint Research Center for Fundamental Science, Zhejiang University, Hangzhou, Zhejiang, China
+
+### Correspondence
+
+Martin G. Myers, Jr., MD, PhD<br>
+Departments of Internal Medicine and Physiology<br>
+University of Michigan<br>
+2800 Plymouth Rd., NCRC Bldg 20<br>
+Ann Arbor, MI 48109<br>
+[mgmyers@umich.edu](mailto:mgmyers@umich.edu)
+
+### Abstract
+
+Glucagon-like peptide 1 (GLP-1) receptor agonists (GLP1RAs) effectively reduce feeding to treat obesity, although nausea and other aversive side effects of these drugs can limit their use. Brainstem circuits that promote satiation and mediate the physiological control of body weight can be distinguished from those that cause aversion. It remains unclear, however, whether brainstem Glp1r neurons contribute to the normal regulation of energy balance and whether GLP1RAs control appetite via circuits distinct from those that mediate aversive responses. Here, we silenced Glp1r neurons in the nucleus of the solitary tract (NTS) or area postrema (AP) (NTS<sup>Glp1r</sup> or AP<sup>Glp1r</sup> neurons, respectively) or restored their GLP1R signaling on an otherwise GLP1R-deficient background to determine physiological and pharmacological roles for each neuron population. Although NTS<sup>Glp1r</sup> neurons contributed to the normal restraint of food intake and body weight, they failed to mediate GLP1RA-dependent weight loss. In contrast, while we detected no role for AP<sup>Glp1r</sup> neurons in physiological feeding, they mediated both the weight-lowering and aversive effects of GLP1RAs. Therefore, while nonaversive NTS<sup>Glp1r</sup> neurons controlled physiologic satiation they did not contribute to weight loss during GLP1RA treatment. Rather, AP<sup>Glp1r</sup> neurons mediated both the weight-lowering and aversive effects of GLP1RAs, preventing the separation of their nauseating and weight-loss effects at a circuit level.
+
+### Data availability
+
+Github repository covers the code necessary to reproduce perform label transfer of hypothalamic and DVC cell labels onto the dataset generated by the paper. Downstream applications included UMAP visualization, pseudobulk analysis, etc.
